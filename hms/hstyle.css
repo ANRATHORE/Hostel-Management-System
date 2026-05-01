@@ -1,0 +1,162 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    background-color: #004aad;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+.btn-login {
+    background-color: #f04c4c;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hostel.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #004aad;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Features Section */
+.features {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    text-align: left;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.feature-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    font-size: 16px;
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p, .contact ul {
+    font-size: 18px;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
